@@ -1,0 +1,20 @@
+{
+  "name": "trafalgar",
+  "version": "1.0.0",
+  "description": "Trafalgar",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w",
+    "concat-css": "concat -o css/style.concat.css css/additional.css css/style.comp.css"
+  },
+  "author": "Vitalii Kotelianets",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0"
+  }
+}
